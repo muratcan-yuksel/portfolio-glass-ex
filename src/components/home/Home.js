@@ -11,6 +11,12 @@ const Home = () => {
             <p>Hello, I'm</p>
             <h1>Murat Can Yüksel</h1>
             <h2>Web(3) developer</h2>
+            <a href="#" className="btn">
+              more about me
+            </a>
+            <a href="#" className="btn">
+              portfolio
+            </a>
           </div>
           <div className="home-img">
             <div className="img-box">
