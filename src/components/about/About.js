@@ -35,7 +35,7 @@ const About = () => {
               <div className="skill-item">hardhat</div>
               <div className="skill-item">ethersJS</div>
             </div>
-
+            {/* left at 31m22secs */}
             <div className="about-tabs">
               <button
                 type="button"
