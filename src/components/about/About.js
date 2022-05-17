@@ -35,6 +35,23 @@ const About = () => {
               <div className="skill-item">hardhat</div>
               <div className="skill-item">ethersJS</div>
             </div>
+
+            <div className="about-tabs">
+              <button
+                type="button"
+                className="tab-item active"
+                data-target="#education"
+              >
+                education
+              </button>
+              <button
+                type="button"
+                className="tab-item"
+                data-target="#experience"
+              >
+                experience
+              </button>
+            </div>
           </div>
         </div>
       </div>
