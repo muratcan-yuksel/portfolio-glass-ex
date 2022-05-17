@@ -1,5 +1,6 @@
 import React from "react";
 import profileImg from "../../assets/pp.jpg";
+import "./about.css";
 
 const About = () => {
   return (
@@ -12,15 +13,17 @@ const About = () => {
         </div>
         <div className="row">
           <div className="about-img">
-            <div className="img-box">
+            <div className="img-box aboutImg">
               <img src={profileImg} alt="about img" />
             </div>
           </div>
           <div className="about-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            harum, explicabo sapiente eligendi ad suscipit consequuntur delectus
-            debitis adipisci minus ullam, quae nam doloribus. Animi quia eos
-            numquam doloribus commodi.
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Cupiditate recusandae reiciendis voluptas soluta rerum quidem
+              ducimus odio molestias cum ullam dicta vel, mollitia quis, nam
+              impedit molestiae magni maiores hic.
+            </p>
           </div>
         </div>
       </div>

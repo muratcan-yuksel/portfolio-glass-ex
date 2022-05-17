@@ -10,3 +10,8 @@
   font-size: 40px;
   text-transform: capitalize;
 }
+/* this, I added myself */
+.aboutImg {
+  width: 350px !important;
+  height: 350px !important;
+}
