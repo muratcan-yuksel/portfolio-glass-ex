@@ -1,3 +1,15 @@
+/* this, I added myself */
+.aboutImg {
+  width: 350px !important;
+  height: 350px !important;
+  /* the border radius will get rid of the glassmorp white background: for the image */
+  /* border-radius: 50% !important; */
+}
+.myAboutImg {
+  /* border: 2px solid red; */
+  border-radius: 50% !important;
+}
+
 .sec-padding {
   padding: 80px 0;
 }
@@ -5,13 +17,24 @@
   padding: 0 15px;
   width: 100%;
   text-align: center;
+  margin-bottom: 40px;
 }
 .section-title h2 {
   font-size: 40px;
   text-transform: capitalize;
 }
-/* this, I added myself */
-.aboutImg {
-  width: 350px !important;
-  height: 350px !important;
+.about-img {
+  width: 40%;
+  padding: 0 15px;
+}
+.about-text {
+  width: 60%;
+  pad: 0 15px;
+}
+.about-img .img-box {
+  background-color: var(--white-alpha-25);
+  max-width: 380px;
+  border: 1px solid var(--white-alpha-40);
+  margin: auto;
+  border-radius: 10px;
 }

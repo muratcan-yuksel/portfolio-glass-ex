@@ -14,7 +14,7 @@ const About = () => {
         <div className="row">
           <div className="about-img">
             <div className="img-box aboutImg">
-              <img src={profileImg} alt="about img" />
+              <img className="myAboutImg" src={profileImg} alt="about img" />
             </div>
           </div>
           <div className="about-text">
@@ -24,6 +24,17 @@ const About = () => {
               ducimus odio molestias cum ullam dicta vel, mollitia quis, nam
               impedit molestiae magni maiores hic.
             </p>
+            <h3>skills</h3>
+            <div className="skills">
+              <div className="skill-item">html</div>
+              <div className="skill-item">css</div>
+              <div className="skill-item">javascript</div>
+              <div className="skill-item">reactJS</div>
+              <div className="skill-item">vueJS</div>
+              <div className="skill-item">solidity</div>
+              <div className="skill-item">hardhat</div>
+              <div className="skill-item">ethersJS</div>
+            </div>
           </div>
         </div>
       </div>
