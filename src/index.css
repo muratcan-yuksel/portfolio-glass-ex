@@ -93,6 +93,9 @@ section {
 .align-items-center {
   align-items: center;
 }
+.hidden {
+  display: none !important;
+}
 /* custom scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
