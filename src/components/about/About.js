@@ -51,7 +51,7 @@ const About = () => {
                 experience
               </button>
             </div>
-            {/* education start */}
+            {/* education starts */}
             <div className="tab-content" id="education">
               <div className="timeline">
                 <div className="timeline-item">
@@ -92,8 +92,11 @@ const About = () => {
                 </div>
               </div>
             </div>
+            {/* education ends */}
 
-            {/* education end */}
+            {/* experience starts */}
+
+            {/* experience ends */}
           </div>
         </div>
       </div>

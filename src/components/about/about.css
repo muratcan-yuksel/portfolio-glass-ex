@@ -3,7 +3,7 @@
   width: 350px !important;
   height: 350px !important;
   /* the border radius will get rid of the glassmorp white background: for the image */
-  /* border-radius: 50% !important; */
+  border-radius: 50% !important;
 }
 .myAboutImg {
   /* border: 2px solid red; */
