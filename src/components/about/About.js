@@ -35,7 +35,6 @@ const About = () => {
               <div className="skill-item">hardhat</div>
               <div className="skill-item">ethersJS</div>
             </div>
-            {/* left at 31m22secs */}
             <div className="about-tabs">
               <button
                 type="button"
@@ -52,6 +51,49 @@ const About = () => {
                 experience
               </button>
             </div>
+            {/* education start */}
+            <div className="tab-content" id="education">
+              <div className="timeline">
+                <div className="timeline-item">
+                  <span className="date">2014-2016</span>
+                  <h4>
+                    Comp Lit - <span>ELTE University</span>
+                  </h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Id, quasi aspernatur asperiores porro cupiditate laborum
+                    voluptatibus temporibus repudiandae a dolore tempora sint,
+                    ipsum, facilis rem eos provident minus unde ex.
+                  </p>
+                </div>{" "}
+                <div className="timeline-item">
+                  <span className="date">2014-2016</span>
+                  <h4>
+                    Comp Lit - <span>ELTE University</span>
+                  </h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Id, quasi aspernatur asperiores porro cupiditate laborum
+                    voluptatibus temporibus repudiandae a dolore tempora sint,
+                    ipsum, facilis rem eos provident minus unde ex.
+                  </p>
+                </div>{" "}
+                <div className="timeline-item">
+                  <span className="date">2014-2016</span>
+                  <h4>
+                    Comp Lit - <span>ELTE University</span>
+                  </h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Id, quasi aspernatur asperiores porro cupiditate laborum
+                    voluptatibus temporibus repudiandae a dolore tempora sint,
+                    ipsum, facilis rem eos provident minus unde ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* education end */}
           </div>
         </div>
       </div>
