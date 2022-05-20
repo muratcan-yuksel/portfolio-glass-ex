@@ -5,28 +5,95 @@ import "./about.css";
 const About = () => {
   // need to add conditonal rendering
   // stopped at 41m42secs
-  const [isActive, setActive] = useState("false");
+  const [education, setEducation] = useState(true);
+  const [experience, setExperience] = useState(false);
 
-  // const tabsContainer = document.querySelector(".about-tabs");
-  // const aboutSection = document.querySelector(".about-section");
+  //conditional rendering here
+  let educationDiv;
+  let experienceDiv;
+  if (education) {
+    educationDiv = (
+      <div className="tab-content active" id="education">
+        <div className="timeline">
+          <div className="timeline-item">
+            <span className="date">2014-2016</span>
+            <h4>
+              Comp Lit - <span>ELTE University</span>
+            </h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
+              quasi aspernatur asperiores porro cupiditate laborum voluptatibus
+              temporibus repudiandae a dolore tempora sint, ipsum, facilis rem
+              eos provident minus unde ex.
+            </p>
+          </div>{" "}
+          <div className="timeline-item">
+            <span className="date">2014-2016</span>
+            <h4>
+              Comp Lit - <span>ELTE University</span>
+            </h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
+              quasi aspernatur asperiores porro cupiditate laborum voluptatibus
+              temporibus repudiandae a dolore tempora sint, ipsum, facilis rem
+              eos provident minus unde ex.
+            </p>
+          </div>{" "}
+          <div className="timeline-item">
+            <span className="date">2014-2016</span>
+            <h4>
+              Comp Lit - <span>ELTE University</span>
+            </h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
+              quasi aspernatur asperiores porro cupiditate laborum voluptatibus
+              temporibus repudiandae a dolore tempora sint, ipsum, facilis rem
+              eos provident minus unde ex.
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
-  // const handleToggle = (e) => {
-  //   setActive(!isActive);
-  //   if (
-  //     e.target.classList.contains("tab-item") &&
-  //     !e.target.classList.contains("active")
-  //   ) {
-  //     tabsContainer.querySelector(".active").classList.remove("active");
-  //     e.target.classList.add("active");
-  //     const target = e.target.getAttribute("data-target");
-  //     aboutSection
-  //       .querySelector(".tab-content.active")
-  //       .classList.remove("active");
-  //     aboutSection.querySelector(target).classList.add("active");
-  //   }
-  //   console.log(e.target);
-  //   console.log(e.target.classList);
-  // };
+  if (experience) {
+    experienceDiv = (
+      <div className="tab-content active" id="experience">
+        <div className="timeline">
+          <div className="timeline-item">
+            <span className="date">2013-2016</span>
+            <h4>web developer</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Excepturi exercitationem neque doloribus quas velit corporis
+              adipisci, est eligendi perferendis ducimus libero praesentium sunt
+              aliquam officiis laborum eius ab deleniti voluptas?
+            </p>
+          </div>{" "}
+          <div className="timeline-item">
+            <span className="date">2013-2016</span>
+            <h4>web developer</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Excepturi exercitationem neque doloribus quas velit corporis
+              adipisci, est eligendi perferendis ducimus libero praesentium sunt
+              aliquam officiis laborum eius ab deleniti voluptas?
+            </p>
+          </div>{" "}
+          <div className="timeline-item">
+            <span className="date">2013-2016</span>
+            <h4>web developer</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Excepturi exercitationem neque doloribus quas velit corporis
+              adipisci, est eligendi perferendis ducimus libero praesentium sunt
+              aliquam officiis laborum eius ab deleniti voluptas?
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const handleToggle = (e) => {
     e.target.classList.add("active");
@@ -74,7 +141,6 @@ const About = () => {
                 education
               </button>
               <button
-                onClick={handleToggle}
                 type="button"
                 className="tab-item"
                 data-target="#experience"
@@ -83,86 +149,12 @@ const About = () => {
               </button>
             </div>
             {/* education starts */}
-            <div className="tab-content active" id="education">
-              <div className="timeline">
-                <div className="timeline-item">
-                  <span className="date">2014-2016</span>
-                  <h4>
-                    Comp Lit - <span>ELTE University</span>
-                  </h4>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Id, quasi aspernatur asperiores porro cupiditate laborum
-                    voluptatibus temporibus repudiandae a dolore tempora sint,
-                    ipsum, facilis rem eos provident minus unde ex.
-                  </p>
-                </div>{" "}
-                <div className="timeline-item">
-                  <span className="date">2014-2016</span>
-                  <h4>
-                    Comp Lit - <span>ELTE University</span>
-                  </h4>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Id, quasi aspernatur asperiores porro cupiditate laborum
-                    voluptatibus temporibus repudiandae a dolore tempora sint,
-                    ipsum, facilis rem eos provident minus unde ex.
-                  </p>
-                </div>{" "}
-                <div className="timeline-item">
-                  <span className="date">2014-2016</span>
-                  <h4>
-                    Comp Lit - <span>ELTE University</span>
-                  </h4>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Id, quasi aspernatur asperiores porro cupiditate laborum
-                    voluptatibus temporibus repudiandae a dolore tempora sint,
-                    ipsum, facilis rem eos provident minus unde ex.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div> {educationDiv} </div>
             {/* education ends */}
 
             {/* experience starts */}
-            <div className="tab-content" id="experience">
-              <div className="timeline">
-                <div className="timeline-item">
-                  <span className="date">2013-2016</span>
-                  <h4>web developer</h4>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Excepturi exercitationem neque doloribus quas velit corporis
-                    adipisci, est eligendi perferendis ducimus libero
-                    praesentium sunt aliquam officiis laborum eius ab deleniti
-                    voluptas?
-                  </p>
-                </div>{" "}
-                <div className="timeline-item">
-                  <span className="date">2013-2016</span>
-                  <h4>web developer</h4>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Excepturi exercitationem neque doloribus quas velit corporis
-                    adipisci, est eligendi perferendis ducimus libero
-                    praesentium sunt aliquam officiis laborum eius ab deleniti
-                    voluptas?
-                  </p>
-                </div>{" "}
-                <div className="timeline-item">
-                  <span className="date">2013-2016</span>
-                  <h4>web developer</h4>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Excepturi exercitationem neque doloribus quas velit corporis
-                    adipisci, est eligendi perferendis ducimus libero
-                    praesentium sunt aliquam officiis laborum eius ab deleniti
-                    voluptas?
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div>{experienceDiv} </div>
+
             {/* experience ends */}
           </div>
         </div>
