@@ -146,7 +146,7 @@ const About = () => {
               <button
                 onClick={switchToEducation}
                 type="button"
-                className="tab-item "
+                className={`tab-item ${education ? "active" : ""}`}
                 data-target="#education"
               >
                 education
@@ -154,7 +154,7 @@ const About = () => {
               <button
                 onClick={switchToExperience}
                 type="button"
-                className="tab-item"
+                className={`tab-item ${experience ? "active" : ""}`}
                 data-target="#experience"
               >
                 experience
