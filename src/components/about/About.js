@@ -100,6 +100,16 @@ const About = () => {
     console.log(e);
   };
 
+  const switchToEducation = () => {
+    setEducation(true);
+    setExperience(false);
+  };
+
+  const switchToExperience = () => {
+    setEducation(false);
+    setExperience(true);
+  };
+
   return (
     <section className="about-section sec-padding">
       <div className="container">
@@ -134,13 +144,15 @@ const About = () => {
             </div>
             <div className="about-tabs">
               <button
+                onClick={switchToEducation}
                 type="button"
-                className="tab-item active"
+                className="tab-item "
                 data-target="#education"
               >
                 education
               </button>
               <button
+                onClick={switchToExperience}
                 type="button"
                 className="tab-item"
                 data-target="#experience"
