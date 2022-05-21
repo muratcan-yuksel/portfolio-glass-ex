@@ -52,6 +52,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+
       {/* he gave hidden class to the uttermost main component */}
       {/* portfolio item details popup starts */}
       <div className="portfolio-popup">

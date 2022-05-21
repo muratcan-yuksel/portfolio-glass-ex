@@ -44,6 +44,9 @@ body {
   -webkit-tap-highlight-color: transparent;
   padding: 5vh 15px;
 }
+body.hide-scrolling {
+  overflow-y: hidden;
+}
 body::before {
   content: "";
   position: fixed;
@@ -85,6 +88,10 @@ section {
 .main {
   max-width: 1200px;
   margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+.main.fade-out {
+  opacity: 0;
 }
 .container {
   padding: 0 40px;
