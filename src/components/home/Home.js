@@ -5,8 +5,8 @@ import profileImg from "../../assets/pp.jpg";
 const Home = () => {
   return (
     <section className="home-section align-items-center hidden ">
-      <div className="container">
-        <div className="row align-items-center ">
+      <div className="myContainer">
+        <div className="myRow align-items-center ">
           <div className="home-text">
             <p>Hello, I'm</p>
             <h1>Murat Can Yüksel</h1>

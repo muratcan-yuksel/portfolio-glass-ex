@@ -93,11 +93,11 @@ section {
 .main.fade-out {
   opacity: 0;
 }
-.container {
+.myContainer {
   padding: 0 40px;
   width: 100%;
 }
-.row {
+.myRow {
   display: flex;
   flex-wrap: wrap;
 }

@@ -38,14 +38,14 @@ const Portfolio = () => {
   return (
     <div>
       <section className="portfolio-section sec-padding">
-        <div className="container">
-          <div className="row">
+        <div className="myContainer">
+          <div className="myRow">
             <div className="section-title">
               <h2>recent work</h2>
             </div>
           </div>
 
-          <div className="row">
+          <div className="myRow">
             {/* portfolio item starts */}
             <PortfolioItem data={data} />
             {/* portfolio item ends */}

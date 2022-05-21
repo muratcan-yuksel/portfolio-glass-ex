@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import "./portfolio.css";
 import one from "../../assets/portfolio/1.jpg";
+import Button from "react-bootstrap/Button";
 
 const PortfolioItem = ({ data }) => {
   // const [state, setState] = useState(false);
@@ -19,7 +20,9 @@ const PortfolioItem = ({ data }) => {
             <div className="portfolio-item-thumbnail">
               <img src={one} alt="portfolio item thumbnail" />
             </div>
-            <h3 className="portfolio-item-title"> {itemTitle} </h3>
+            <h3 className="portfolio-item-title"> {itemTitle} </h3>{" "}
+            <Button variant="primary">Primary</Button>{" "}
+            <Button variant="secondary">Secondary</Button>{" "}
             <button className="btn view-project-btn"> {viewBtnPara} </button>
             <div className="description">
               <p>{description}</p>

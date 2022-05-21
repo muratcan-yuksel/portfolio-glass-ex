@@ -112,13 +112,13 @@ const About = () => {
 
   return (
     <section className="about-section sec-padding hidden">
-      <div className="container">
-        <div className="row">
+      <div className="myContainer">
+        <div className="myRow">
           <div className="section-title">
             <h2>about me</h2>
           </div>
         </div>
-        <div className="row">
+        <div className="myRow">
           <div className="about-img">
             <div className="img-box aboutImg">
               <img className="myAboutImg" src={profileImg} alt="about img" />
