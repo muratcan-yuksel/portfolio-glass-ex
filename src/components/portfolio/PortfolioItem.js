@@ -1,8 +1,10 @@
-import React from "react";
+import { React, useState } from "react";
 import "./portfolio.css";
+import Modal from "react-modal";
 import one from "../../assets/portfolio/1.jpg";
 
 const PortfolioItem = ({ data }) => {
+  const [modal, setModal] = useState(false);
   console.log(data);
   return (
     <>
