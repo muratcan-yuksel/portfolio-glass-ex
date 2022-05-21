@@ -4,7 +4,7 @@ import PortfolioItem from "./PortfolioItem";
 import one from "../../assets/portfolio/1.jpg";
 import three from "../../assets/portfolio/3.jpg";
 import { FaTimes } from "react-icons/fa";
-
+// left at 1h01m
 const Portfolio = () => {
   const data = [
     {
@@ -64,6 +64,13 @@ const Portfolio = () => {
               <div className="pp-thumbnail">
                 <img src={three} alt="pp-thumbnail" />
               </div>
+              <h3>app landing page</h3>
+            </div>
+            <div className="pp-body">
+              description part comes here Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Ipsa illum dolor nulla vel aspernatur adipisci
+              accusantium voluptatum sunt eos at quam quia beatae, sit eaque
+              deleniti repellat temporibus voluptas porro?
             </div>
           </div>
         </div>
