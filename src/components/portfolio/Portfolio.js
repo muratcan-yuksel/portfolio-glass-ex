@@ -2,6 +2,8 @@ import React from "react";
 import "./portfolio.css";
 import PortfolioItem from "./PortfolioItem";
 import one from "../../assets/portfolio/1.jpg";
+import three from "../../assets/portfolio/3.jpg";
+import { FaTimes } from "react-icons/fa";
 
 const Portfolio = () => {
   const data = [
@@ -18,24 +20,56 @@ const Portfolio = () => {
         { key: "View Online - ", value: "www.domain.com" },
       ],
     },
+    {
+      image: { one },
+      itemTitle: "education course website",
+      viewBtnPara: "view project",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque",
+      listItems: [
+        { key: "Created - ", value: "4 Dec 2020" },
+        { key: "technologies used - ", value: "Html, Css" },
+        { key: "Role - ", value: "Frontend" },
+        { key: "View Online - ", value: "www.domain.com" },
+      ],
+    },
   ];
 
   return (
-    <section className="portfolio-section sec-padding">
-      <div className="container">
-        <div className="row">
-          <div className="section-title">
-            <h2>recent work</h2>
+    <div>
+      <section className="portfolio-section sec-padding">
+        <div className="container">
+          <div className="row">
+            <div className="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+
+          <div className="row">
+            {/* portfolio item starts */}
+            <PortfolioItem data={data} />
+            {/* portfolio item ends */}
           </div>
         </div>
-
-        <div className="row">
-          {/* portfolio item starts */}
-          <PortfolioItem data={data} />
-          {/* portfolio item ends */}
+      </section>
+      {/* he gave hidden class to the uttermost main component */}
+      {/* portfolio item details popup starts */}
+      <div className="portfolio-popup">
+        <div className="pp-inner">
+          <div className="pp-content">
+            <div className="pp-header">
+              <button className="btn pp-close">
+                <FaTimes />
+              </button>
+              <div className="pp-thumbnail">
+                <img src={three} alt="pp-thumbnail" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+      {/* portfolio item details popup ends */}
+    </div>
   );
 };
 

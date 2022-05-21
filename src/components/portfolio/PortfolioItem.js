@@ -1,4 +1,5 @@
 import React from "react";
+import "./portfolio.css";
 import one from "../../assets/portfolio/1.jpg";
 
 const PortfolioItem = ({ data }) => {
@@ -32,7 +33,6 @@ const PortfolioItem = ({ data }) => {
           </div>
         );
       })}
-      lol
     </>
   );
 };
