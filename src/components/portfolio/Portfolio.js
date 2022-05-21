@@ -33,6 +33,58 @@ const Portfolio = () => {
         { key: "View Online - ", value: "www.domain.com" },
       ],
     },
+    {
+      image: { one },
+      itemTitle: "education course website",
+      viewBtnPara: "view project",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque",
+      listItems: [
+        { key: "Created - ", value: "4 Dec 2020" },
+        { key: "technologies used - ", value: "Html, Css" },
+        { key: "Role - ", value: "Frontend" },
+        { key: "View Online - ", value: "www.domain.com" },
+      ],
+    },
+    {
+      image: { one },
+      itemTitle: "education course website",
+      viewBtnPara: "view project",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque",
+      listItems: [
+        { key: "Created - ", value: "4 Dec 2020" },
+        { key: "technologies used - ", value: "Html, Css" },
+        { key: "Role - ", value: "Frontend" },
+        { key: "View Online - ", value: "www.domain.com" },
+      ],
+    },
+    {
+      image: { one },
+      itemTitle: "education course website",
+      viewBtnPara: "view project",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque",
+      listItems: [
+        { key: "Created - ", value: "4 Dec 2020" },
+        { key: "technologies used - ", value: "Html, Css" },
+        { key: "Role - ", value: "Frontend" },
+        { key: "View Online - ", value: "www.domain.com" },
+      ],
+    },
+    {
+      image: { one },
+      itemTitle: "education course website",
+      viewBtnPara: "view project",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque",
+      listItems: [
+        { key: "Created - ", value: "4 Dec 2020" },
+        { key: "technologies used - ", value: "Html, Css" },
+        { key: "Role - ", value: "Frontend" },
+        { key: "View Online - ", value: "www.domain.com" },
+      ],
+    },
   ];
 
   return (
@@ -55,7 +107,7 @@ const Portfolio = () => {
 
       {/* he gave hidden class to the uttermost main component */}
       {/* portfolio item details popup starts */}
-      <div className="portfolio-popup">
+      {/* <div className="portfolio-popup">
         <div className="pp-inner">
           <div className="pp-content">
             <div className="pp-header">
@@ -75,7 +127,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* portfolio item details popup ends */}
     </div>
   );

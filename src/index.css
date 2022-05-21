@@ -45,7 +45,7 @@ body {
   padding: 5vh 15px;
 }
 body.hide-scrolling {
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 body::before {
   content: "";
