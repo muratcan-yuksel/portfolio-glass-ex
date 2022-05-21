@@ -111,7 +111,7 @@ const About = () => {
   };
 
   return (
-    <section className="about-section sec-padding">
+    <section className="about-section sec-padding hidden">
       <div className="container">
         <div className="row">
           <div className="section-title">
