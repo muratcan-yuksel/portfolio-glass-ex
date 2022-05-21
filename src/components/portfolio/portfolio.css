@@ -23,7 +23,7 @@
 .portfolio-item-details {
   display: none;
 }
-.portfolio-popup {
+/* .portfolio-popup {
   position: fixed;
   left: 0;
   top: 0;
@@ -35,7 +35,7 @@
 .portfolio-popup.open {
   visibility: visible;
   overflow-y: auto;
-}
+} */
 .pp-inner {
   min-height: 100vh;
   padding: 40px 15px;

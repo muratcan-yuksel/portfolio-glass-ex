@@ -112,13 +112,13 @@ const About = () => {
 
   return (
     <section className="about-section sec-padding hidden">
-      <div className="myContainer">
-        <div className="myRow">
+      <div className="container">
+        <div className="row">
           <div className="section-title">
             <h2>about me</h2>
           </div>
         </div>
-        <div className="myRow">
+        <div className="row">
           <div className="about-img">
             <div className="img-box aboutImg">
               <img className="myAboutImg" src={profileImg} alt="about img" />
@@ -167,11 +167,11 @@ const About = () => {
             {/* experience starts */}
             <div>{experienceDiv} </div>
             {/* experience ends */}
-            <a href="http://localhost:3000/" className="myBtn">
+            <a href="http://localhost:3000/" className="btn">
               {" "}
               download cv
             </a>
-            <a href="http://localhost:3000/" className="myBtn">
+            <a href="http://localhost:3000/" className="btn">
               {" "}
               contact me
             </a>

@@ -38,14 +38,14 @@ const Portfolio = () => {
   return (
     <div>
       <section className="portfolio-section sec-padding">
-        <div className="myContainer">
-          <div className="myRow">
+        <div className="container">
+          <div className="row">
             <div className="section-title">
               <h2>recent work</h2>
             </div>
           </div>
 
-          <div className="myRow">
+          <div className="row">
             {/* portfolio item starts */}
             <PortfolioItem data={data} />
             {/* portfolio item ends */}
@@ -59,7 +59,7 @@ const Portfolio = () => {
         <div className="pp-inner">
           <div className="pp-content">
             <div className="pp-header">
-              <button className="myBtn pp-close">
+              <button className="btn pp-close">
                 <FaTimes />
               </button>
               <div className="pp-thumbnail">

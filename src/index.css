@@ -93,11 +93,11 @@ section {
 .main.fade-out {
   opacity: 0;
 }
-.myContainer {
+.container {
   padding: 0 40px;
   width: 100%;
 }
-.myRow {
+.row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -123,7 +123,7 @@ button {
   font-family: inherit;
   user-select: none;
 }
-.myBtn {
+.btn {
   line-height: 1.5;
   background-color: var(--white-alpha-25);
   border: 1px solid var(--white-alpha-40);
@@ -142,7 +142,7 @@ button {
   vertical-align: middle;
   transition: color 0.3s ease;
 }
-.myBtn::before {
+.btn::before {
   content: "";
   position: absolute;
   top: 0;
@@ -153,10 +153,10 @@ button {
   transition: width 0.3s ease;
   z-index: -1;
 }
-.myBtn:hover::before {
+.btn:hover::before {
   width: 100%;
 }
-.myBtn:hover {
+.btn:hover {
   color: var(--white);
 }
 
