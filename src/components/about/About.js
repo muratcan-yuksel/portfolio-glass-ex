@@ -166,8 +166,15 @@ const About = () => {
 
             {/* experience starts */}
             <div>{experienceDiv} </div>
-
             {/* experience ends */}
+            <a href="http://localhost:3000/" className="btn">
+              {" "}
+              download cv
+            </a>
+            <a href="http://localhost:3000/" className="btn">
+              {" "}
+              contact me
+            </a>
           </div>
         </div>
       </div>
