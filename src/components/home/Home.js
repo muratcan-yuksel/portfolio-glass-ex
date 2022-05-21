@@ -11,10 +11,10 @@ const Home = () => {
             <p>Hello, I'm</p>
             <h1>Murat Can Yüksel</h1>
             <h2>Web(3) developer</h2>
-            <a href="#" className="btn">
+            <a href="#" className="myBtn">
               more about me
             </a>
-            <a href="#" className="btn">
+            <a href="#" className="myBtn">
               portfolio
             </a>
           </div>

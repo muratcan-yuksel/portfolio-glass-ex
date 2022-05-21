@@ -59,7 +59,7 @@ const Portfolio = () => {
         <div className="pp-inner">
           <div className="pp-content">
             <div className="pp-header">
-              <button className="btn pp-close">
+              <button className="myBtn pp-close">
                 <FaTimes />
               </button>
               <div className="pp-thumbnail">

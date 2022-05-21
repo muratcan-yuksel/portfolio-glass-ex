@@ -167,11 +167,11 @@ const About = () => {
             {/* experience starts */}
             <div>{experienceDiv} </div>
             {/* experience ends */}
-            <a href="http://localhost:3000/" className="btn">
+            <a href="http://localhost:3000/" className="myBtn">
               {" "}
               download cv
             </a>
-            <a href="http://localhost:3000/" className="btn">
+            <a href="http://localhost:3000/" className="myBtn">
               {" "}
               contact me
             </a>

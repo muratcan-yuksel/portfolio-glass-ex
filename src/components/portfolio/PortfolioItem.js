@@ -23,7 +23,7 @@ const PortfolioItem = ({ data }) => {
             <h3 className="portfolio-item-title"> {itemTitle} </h3>{" "}
             <Button variant="primary">Primary</Button>{" "}
             <Button variant="secondary">Secondary</Button>{" "}
-            <button className="btn view-project-btn"> {viewBtnPara} </button>
+            <button className="myBtn view-project-btn"> {viewBtnPara} </button>
             <div className="description">
               <p>{description}</p>
             </div>
